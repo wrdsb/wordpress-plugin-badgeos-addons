@@ -33,7 +33,7 @@ function wrdsb_achievement_tags() {
 		'show_in_nav_menus'          => true,
 		'show_tagcloud'              => true,
 	);
-	register_taxonomy( 'wrdsb_achievement_tag', array( 'badge', 'achievement', 'certification', 'skill', 'quest', 'path' ), $args );
+	register_taxonomy( 'wrdsb_achievement_tag', array( 'badge', 'achievement', 'certification', 'skill', 'quest', 'path', 'course-completion' ), $args );
 
 }
 add_action( 'init', 'wrdsb_achievement_tags', 0 );
